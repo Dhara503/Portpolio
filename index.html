@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portpolio||Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   </head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="">Portpolio</a>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portpolio">Portpolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark nav-icon " onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars nav-icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>(Web - Designer)</p>
+                <h1>Hi, I am <span style="color: #ff004f;">Dharmraj</span> <br> Naikar from India.</h1>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <!-- ========== Start about Section ========== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="image/image_search_1701003470066.jpg" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> Welcome to My Portpolio, where creativity meets functionality! I am Dharmraj Naikar, a
+                        passionate
+                        web designer dedicated to bringing your digital vision to life. <br><br>My
+                        journey in the world of web design has been driven by a relentless pursuit of excellence. As a
+                        Frontend web Developer, I thrive on turning ideas into engaging online realities. From concept
+                        to execution,
+                        I collaborate closely with clients to understand their unique needs, ensuring that each project
+                        reflects their brand identity and goals.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Sales</span> <br> </li>
+                            <li><span>Web Designer (UI)</span> </li>
+                            <li><span>Quick Learner</span> <br></li>
+                            <li><span>Digital Marketing</span> <br></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>2023 - Current</span> <br> Web Designing </li>
+                            <li><span>2020-2023</span> <br> Sales Manager at ABC INFOTECH </li>
+                            <li><span>2018-2019 </span><br> Digital Marketing at flying feather</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span> <br>Learning from Online Platform <br></li>
+                            <li><span>2017-2020</span> <br> Bechlore of commerce from NC Bodiwala </li>
+                            <li><span>2017</span> <br>HSC from R.B.H.S.S.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End about Section ========== -->
+
+    <!-- ========== Start Services Section ========== -->
+    <hr>
+
+    <div id="services">
+        <div class="container">
+
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti, et eum id ut
+                        voluptates. Tempore maxime sapiente ipsa praesentium.</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sellsy"></i>
+                    <h2>Web Designing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti, et eum id ut
+                        voluptates. Tempore maxime sapiente ipsa praesentium.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-digital-ocean"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti, et eum id ut
+                        voluptates. Tempore maxime sapiente ipsa praesentium.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End Services Section ========== -->
+    <!-- ========== Start portpolio Section ========== -->
+    <hr>
+    <div id="portpolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work"><img src="image/work-6.png">
+                    <div class="layer">
+                        <h3>Demo Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni.</p>
+                        <a href="https://dharamrajdemo1.netlify.app/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work"><img src="image/work-7.png">
+                    <div class="layer">
+                        <h3>Barbar Saloon Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni.</p>
+                        <a href="https://barbarshopdemo.netlify.app/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work"><img src="image/WORK-2.png">
+                    <div class="layer">
+                        <h3>Book Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni.</p>
+                        <a href="https://whitehatinfotechs.com/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+        <hr>
+    </div>
+    <!-- ========== End portpolio Section ========== -->
+
+    <!-- ========== Start contact Section ========== -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>dharmraj.official@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i>+91 8849127971</p>
+                    <div class="social-icons">
+                        <a href="#whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Dharamraj's Resume.pdf" Download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            Made with <i class="fa-solid fa-heart"></i> by Dharamraj Naikar
+        </div>
+    </div>
+
+    <!-- ========== End contact Section ========== -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        };
+        sidemenu = document.getElementById('sidemenu')
+
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz7RTdGfZrt0I9C-NIj-RH2s615wWt40RCe_pabmcsxojMPNTGseo9dgvNHJKci4xpn6g/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
